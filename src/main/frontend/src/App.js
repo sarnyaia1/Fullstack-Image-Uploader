@@ -24,8 +24,8 @@ const UserProfiles = () => {
           : null}
         <br />
         <br />
-        <h1>{userProfile.userName}</h1>
-        <p>{userProfile.userProfileId}</p>
+        <h1>Username: {userProfile.userName}</h1>
+        <p>ID: {userProfile.userProfileId}</p>
         <DropZone {...userProfile}/>
         <br />
       </div>
